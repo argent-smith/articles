@@ -45,7 +45,7 @@ is some remote Ubuntu instance (I use the one from my homelab).
 2. Using `pip` and `curl`, install the helper for filesystem events
    monitoring.
 
-   [fig. 2]
+   ![Installing fsevents helper][fig. 2]
 
 For more information look at the
 `docker-sync` [documentation][docker-sync]. `docker-sync` is a tool
@@ -54,11 +54,11 @@ container.
 
 Let's see local synchronization:
 
-[fig. 3]
+![Local sync part 1][fig. 3]
 
-[fig. 4]
+![Local sync part 2][fig. 4]
 
-[fig. 5]
+![Local sync part 3][fig. 5]
 
 So, Unison is run with `unison [options] <here> <there>`. "There" can
 be on either local or remote machine. We will experiment with the
@@ -162,3 +162,7 @@ Now, I get back to my Mac and we'll play with the actual files.
 [docker-sync]: https://github.com/EugenMayer/docker-sync
 
 [fig. 1]: figures/fig1.png "Installing Unison via Homebrew"
+[fig. 2]: figures/fig2.png "Installing fsevents helper"
+[fig. 3]: figures/fig3.png "Local sync part 1"
+[fig. 4]: figures/fig4.png "Local sync part 2"
+[fig. 5]: figures/fig5.png "Local sync part 3"
