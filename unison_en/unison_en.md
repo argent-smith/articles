@@ -40,7 +40,7 @@ is some remote Ubuntu instance (I use the one from my homelab).
 
 1. Install Unison via Homebrew.
 
-   [fig. 1]
+   ![Installing Unison via Homebrew][fig. 1]
 
 2. Using `pip` and `curl`, install the helper for filesystem events
    monitoring.
@@ -160,3 +160,5 @@ Now, I get back to my Mac and we'll play with the actual files.
 [Unison online documentation]: https://www.cis.upenn.edu/~bcpierce/unison/
 [OCaml]: http://ocaml.org
 [docker-sync]: https://github.com/EugenMayer/docker-sync
+
+[fig. 1]: figures/fig1.png "Installing Unison via Homebrew"
