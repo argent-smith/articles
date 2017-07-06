@@ -81,22 +81,16 @@ is available as Opensource.
 
 1. Install OCaml
 
-   [fig. 6]
+   ![Installing OCaml & OPAM via apt-get][fig. 6]
 
-   [fig. 7]
-
-   [fig. 8]
-
-   [fig. 9]
-
-   [fig. 10]
+   ![Initializing OPAM environment for future builds][fig. 7]
 
 2. Download Unison source; check out the correct version;
    compile'n'install the binaries:
 
-   [fig. 11]
+   ![Compiling Unison][fig. 8]
 
-   [fig. 12]
+   ![Installing the binaries][fig. 9]
 
 ## Synchronization ##
 
@@ -105,7 +99,7 @@ Now, I get back to my Mac and we'll play with the actual files.
 1. Create the remote directory and do the first, interactive, run to
    establish the replicas metadata
 
-   [fig. 13]
+   ![Initializing the replicas][fig. 10]
 
    The output is eloquently desribing what's been done. Note the
    "ssh-url" where we specify the remote dir. Also, see that the local
@@ -113,28 +107,28 @@ Now, I get back to my Mac and we'll play with the actual files.
    ssh-tunnel between the too after which they negotiate and do the
    actual data transfer.
 
-   Now, start the remote synchronization in "scan-syn-repeat" loop
+   Now, start the remote synchronization in "scan-sync-repeat" loop
 
-   [fig. 14]
+   ![Starting Unison in watch/batch mode][fig. 11]
 
    Unison processes together with their fs-monitors are started on
    both ends
 
-   [fig. 15]
+   ![Remote processes tree][fig. 12]
 
    Now lets edit the file and see how the changes are propagated
 
-   [fig. 16]
+   ![Sync: remote -> local][fig. 13]
 
-   The Unison output shows how the magis is done
+   The Unison output shows how the magic is done
 
-   [fig. 17]
+   ![Sync log][fig. 14]
 
    Edit file "here", see the changes applied "there", and vice versa
 
-   [fig. 18]
+   ![Sync: local -> remote][fig. 15]
 
-   [fig. 19]
+   ![Sync log][fig. 16]
 
    So it works: the changes are propagated in both directions. Our
    example was quite basic: one dir with one files. In my everyday
@@ -166,3 +160,14 @@ Now, I get back to my Mac and we'll play with the actual files.
 [fig. 3]: figures/fig3.png "Local sync part 1"
 [fig. 4]: figures/fig4.png "Local sync part 2"
 [fig. 5]: figures/fig5.png "Local sync part 3"
+[fig. 6]: figures/fig6.png "Installing OCaml & OPAM via apt-get"
+[fig. 7]: figures/fig7.png "Initializing OPAM environment for future builds"
+[fig. 8]: figures/fig8.png "Compiling Unison"
+[fig. 9]: figures/fig9.png "Installing the binaries"
+[fig. 10]: figures/fig10.png "Initializing the replicas"
+[fig. 11]: figures/fig11.png "Starting Unison in watch/batch mode"
+[fig. 12]: figures/fig12.png "Remote processes tree"
+[fig. 13]: figures/fig13.png "Sync: remote -> local"
+[fig. 14]: figures/fig14.png "Sync log"
+[fig. 15]: figures/fig15.png "Sync: local -> remote"
+[fig. 16]: figures/fig16.png "Sync log"
