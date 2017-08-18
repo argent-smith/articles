@@ -135,3 +135,10 @@
      * https://blog.janestreet.com/tag/ocaml/
      * https://coq.inria.fr
      * https://www.cis.upenn.edu/~bcpierce/unison/
+  5. Книги
+     * http://caml.inria.fr/pub/docs/manual-ocaml/
+     * https://realworldocaml.org/
+     * https://ocaml.org/learn/books.html
+  6. Собственная писанина
+     * https://medium.com/@argent_smith/beginners-ocaml-setup-on-mac-fc206747b1ab
+     * https://hype.codes/how-synchronize-application-development-using-unison
